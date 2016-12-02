@@ -1,0 +1,20 @@
+SELECT ph_name, med_name, med_type, md.delivery_id, md.delivery_size, md.remaind 
+FROM delivery d, med_delivery md, medicament m, pharmacy ph 
+WHERE m.id=md.medicament_id AND md.delivery_id=d.id AND d.pharmacy_id=ph.id  
+ORDER BY ph_name
+-- название аптеки, наименование лекарства, вид, номер поставки, объем поставки и остаток от поставки
+
+SELECT ph_name, med_name, med_type, delivery_id, exp 
+FROM delivery d, med_delivery md, medicament m, pharmacy ph 
+WHERE m.id=md.medicament_id AND md.delivery_id=d.id AND d.pharmacy_id=ph.id 
+AND DATE(exp) - CURRENT_DATE() < 0 
+ORDER BY exp
+-- просроченные лекарства
+
+SELECT md.id
+FROM delivery d, med_delivery md, medicament m, pharmacy ph 
+	WHERE m.id=md.medicament_id AND md.delivery_id=d.id AND d.pharmacy_id=ph.id 
+AND address LIKE '%ѕервомайска€%' 
+AND (DATE(exp)-CURRENT_DATE()) < -60 AND price <= 200
+-- выборка id в таблице med_delivery записей дл€ удалени€ лекарств из аптек по улице ѕервомайской
+	дл€ которых срок годности истек больше 2 мес€цев назад, а цена не более 200

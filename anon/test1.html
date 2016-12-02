@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>test1</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<style>
+.b
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 200px;
+	margin-top: -100px;
+	margin-left: -150px;
+	background-color: #ccc;
+	font-family: Verdana;
+	border-radius: 10px;
+}
+</style>
+<div class="b">
+	<ul>
+	<li><a href="http://ya.ru">ya.ru</a></li>
+	<li><a href="http://rambler.ru">rambler.ru</a></li>
+	<li><a href="http://ok.ru">Одноклассники</a></li>
+	<li><a href="http://rg.ru">Российская газета</a></li>
+	<li><a href="http://qweerty.ru">QWERTY</a></li>
+	<li><a href="http://www.google.ru">Google</a></li>
+	</ul>
+</div>
+<button id="mybutton">Щелкните меня!</button>
+<script>
+var site = 'http://dionis20095.orgfree.com/anon.php?url=';
+var links = document.getElementsByTagName('a');
+
+
+/**
+* отмена действия ссылки по умолчанию и вывод свойства href
+**/
+for ( var i = 0; i < links.length; i++ ){
+	links[i].href = site + links[i].href;
+	links[i].onclick = function(ev){  ev.preventDefault();}
+	links[i].addEventListener("click", function(ev) {console.log(ev.target.href);}, false); 
+};
+
+
+
+</script>
+
+</body>
+</html>

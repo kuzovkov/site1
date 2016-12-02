@@ -1,0 +1,44 @@
+D:\Volatech\Library\Library\bin\Debug\LibraryDB.sdf
+D:\Volatech\Library\Library\bin\Debug\Library.exe.config
+D:\Volatech\Library\Library\bin\Debug\Library.exe
+D:\Volatech\Library\Library\bin\Debug\Library.pdb
+D:\Volatech\Library\Library\obj\x86\Debug\Library.Properties.Resources.resources
+D:\Volatech\Library\Library\obj\x86\Debug\Library.csproj.GenerateResource.Cache
+D:\Volatech\Library\Library\obj\x86\Debug\Library.exe
+D:\Volatech\Library\Library\obj\x86\Debug\Library.pdb
+D:\Volatech\Library\Library\obj\x86\Debug\Library.MainWindiw.resources
+D:\Volatech\Library\Library\obj\x86\Debug\Library.BookWindow.resources
+D:\Volatech\Library\Library\obj\x86\Debug\Library.ReadersWindow.resources
+D:\Volatech\Library\Library\obj\x86\Debug\Library.IssuancesWindow.resources
+D:\Volatech\Library\Library\obj\x86\Debug\Library.csprojResolveAssemblyReference.cache
+D:\Volatech\Library\Library\obj\x86\Debug\Library.ViewByBooks.resources
+D:\Volatech\Library\Library\obj\x86\Debug\Library.IssuanceByReader.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\bin\Debug\Library.exe.config
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.exe
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.pdb
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\bin\Debug\LibraryDB.sdf
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\bin\Debug\Library.exe
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\bin\Debug\Library.pdb
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.csprojResolveAssemblyReference.cache
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.MainWindiw.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.BookWindow.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.ReadersWindow.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.IssuancesWindow.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.ViewByBooks.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.IssuanceByReader.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.Properties.Resources.resources
+D:\!_Политех_магистратура\Current\Галочкин БД\Library\Library\Library\obj\x86\Debug\Library.csproj.GenerateResource.Cache
+C:\www3\site1\shokin\Library\Library\bin\Debug\Library.exe.config
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.exe
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.pdb
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.csprojResolveAssemblyReference.cache
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.MainWindiw.resources
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.BookWindow.resources
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.ReadersWindow.resources
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.IssuancesWindow.resources
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.ViewByBooks.resources
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.IssuanceByReader.resources
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.Properties.Resources.resources
+C:\www3\site1\shokin\Library\Library\obj\x86\Debug\Library.csproj.GenerateResource.Cache
+C:\www3\site1\shokin\Library\Library\bin\Debug\LibraryDB.sdf
+C:\www3\site1\shokin\Library\Library\bin\Debug\Library.pdb

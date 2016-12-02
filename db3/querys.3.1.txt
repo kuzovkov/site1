@@ -1,0 +1,44 @@
+1.  SELECT * FROM pharmacy WHERE open_year < 1990 AND address LIKE '%Первомайская%'
+
+2.	SELECT ph_name, med_name, med_type, SUM(md.delivery_size - md.remaind) AS prodano, SUM(md.price*(md.delivery_size - md.remaind)) AS viruchka 
+	FROM delivery d, med_delivery md, medicament m, pharmacy ph 
+	WHERE m.id=md.medicament_id AND md.delivery_id=d.id AND d.pharmacy_id=ph.id  
+	GROUP BY ph_name, med_name, med_type, delivery_id 
+	ORDER BY ph_name, viruchka DESC
+
+3.  SELECT med_name, med_type, SUM(remaind) 
+	FROM med_delivery md, medicament m 
+	WHERE m.id = md.medicament_id
+	GROUP BY med_name, med_type HAVING SUM(remaind) < 100
+
+4.	SELECT ph_name, phone, med_name, med_type, SUM(remaind) AS ostatok 
+	FROM delivery d, med_delivery md, medicament m, pharmacy ph 
+	WHERE m.id=md.medicament_id AND md.delivery_id=d.id AND d.pharmacy_id=ph.id 
+		AND med_name='Преднизолон' AND med_type='tablet' 
+	GROUP BY ph_name,med_name, med_type 
+	HAVING SUM(remaind) >= 10 
+	ORDER BY ph_name
+	
+5.	SELECT m2.med_name, m2.med_type, ph2.ph_name, md2.price 
+	FROM (
+			SELECT med_name, med_type, MIN(price) AS mp FROM delivery d, med_delivery md, medicament m, pharmacy ph 
+			WHERE m.id=md.medicament_id AND md.delivery_id=d.id AND d.pharmacy_id=ph.id 
+			GROUP BY med_name, med_type ORDER BY med_name
+		) 
+	x, delivery d2, med_delivery md2, pharmacy ph2, medicament m2 
+	WHERE m2.id=md2.medicament_id AND md2.delivery_id=d2.id AND d2.pharmacy_id=ph2.id AND m2.med_name=x.med_name AND m2.med_type=x.med_type AND md2.price=x.mp 
+	ORDER BY m2.med_name
+
+6.	CREATE TABLE best_manager SELECT ph_name, manager_name, SUM(price*(delivery_size-remaind)) AS viruchka
+	FROM delivery d, med_delivery md, medicament m, pharmacy ph WHERE m.id=md.medicament_id AND md.delivery_id=d.id AND d.pharmacy_id=ph.id
+	GROUP BY ph_name
+	HAVING viruchka > 50000
+	ORDER BY viruchka DESC
+
+7.	UPDATE med_delivery SET price=price/2 WHERE price > 500 AND (DATE(exp)-CURRENT_DATE()) < 0
+
+8.	DELETE FROM med_delivery
+	WHERE (DATE(exp)-CURRENT_DATE()) < -60 AND price <= 200
+	AND delivery_id IN
+	(SELECT delivery.id FROM delivery WHERE pharmacy_id IN
+	(SELECT pharmacy.id FROM pharmacy WHERE address LIKE '%Первомайская%'))

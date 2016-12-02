@@ -1,0 +1,1 @@
+<?php$str=$_POST['sendtext'];$user=$_POST['user'];$str="<span bgcolor='#CCCCCC'><font color='#FF0000'>".$user.": </font><font color='#0000FF'>".$str."</font></span>";$filename="chat.dat";$f=fopen($filename,"a+");if($f){$res=fwrite($f,$str."\n");}if($res){echo "true";} else {echo "false";}?>

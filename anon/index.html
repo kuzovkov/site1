@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+<script src="ajax.js"></script>
+</head>
+<body>
+
+<style>
+.loader
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+</style>
+<input type="text" size="90" name="url" id="url"/>
+<button id="send">Send</button>
+<hr/>
+<div id="content"></div>
+<img id="loader" class="loader" src="load.gif" style="display:none"/>
+
+<script>
+var service = 'http://dionis20095.orgfree.com/anon.php?url=';
+var btn = document.getElementById('send');
+var loader = document.getElementById('loader');
+btn.onclick = function(){
+	showElem(loader);
+	var url = document.getElementById('url');
+	var params = 'url='+url.value;
+	Ajax.sendRequest('POST', '/anon.php', params, showContent);
+};	
+
+function showContent(content){
+	hideElem(loader);
+	var block = document.getElementById('content');
+	//console.log(content);
+	block.innerHTML = content;
+	//updateLinks();
+}
+
+/**
+* показ элемента
+**/
+function showElem(el){
+	el.style.display = 'inline-block';
+}
+/**
+* скрытие элемента
+**/
+function hideElem(el){
+	el.style.display = 'none';
+}
+
+function updateLinks(){
+	var links = document.getElementsByTagName('a');
+	for ( var i = 0; i < links.length; i++ ){
+		var old_link = links[i].href;
+		links[i].href = service + old_link;
+	}
+}
+
+</script>
+</body>
+</html>

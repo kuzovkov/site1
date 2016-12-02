@@ -1,0 +1,10 @@
+Options FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_METHOD} =PUT
+RewriteRule	^([a-zA-Z0-9_\.]+)/?$ stub.php?name=$1 [L,QSA]
+
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteRule ^.*$ test_request.php
+
+

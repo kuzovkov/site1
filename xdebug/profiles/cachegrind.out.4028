@@ -1,0 +1,3384 @@
+version: 1
+creator: xdebug 2.3.1
+cmd: C:\www2\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=(1) php:internal
+fn=(1) php::define
+21 0
+
+fl=(1)
+fn=(2) php::defined
+31 0
+
+fl=(1)
+fn=(3) php::error_reporting
+36 0
+
+fl=(1)
+fn=(2)
+138 0
+
+fl=(1)
+fn=(4) php::realpath
+143 0
+
+fl=(1)
+fn=(4)
+145 0
+
+fl=(1)
+fn=(5) php::rtrim
+149 0
+
+fl=(1)
+fn=(6) php::is_dir
+152 0
+
+fl=(1)
+fn=(7) php::pathinfo
+163 0
+
+fl=(1)
+fn=(1)
+163 0
+
+fl=(1)
+fn=(1)
+167 0
+
+fl=(1)
+fn=(8) php::str_replace
+170 0
+
+fl=(1)
+fn=(1)
+170 0
+
+fl=(1)
+fn=(8)
+173 0
+
+fl=(1)
+fn=(1)
+173 0
+
+fl=(1)
+fn=(9) php::trim
+176 0
+
+fl=(1)
+fn=(10) php::strrchr
+176 0
+
+fl=(1)
+fn=(9)
+176 0
+
+fl=(1)
+fn=(1)
+176 0
+
+fl=(1)
+fn=(6)
+180 0
+
+fl=(1)
+fn=(1)
+182 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(1)
+fn=(1)
+36 0
+
+fl=(1)
+fn=(1)
+44 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(1)
+fn=(11) php::function_exists
+42 0
+
+fl=(1)
+fn=(11)
+70 0
+
+fl=(1)
+fn=(11)
+121 0
+
+fl=(1)
+fn=(11)
+188 0
+
+fl=(1)
+fn=(11)
+214 0
+
+fl=(1)
+fn=(11)
+269 0
+
+fl=(1)
+fn=(11)
+304 0
+
+fl=(1)
+fn=(11)
+326 0
+
+fl=(1)
+fn=(11)
+347 0
+
+fl=(1)
+fn=(11)
+373 0
+
+fl=(1)
+fn=(11)
+467 0
+
+fl=(1)
+fn=(11)
+512 0
+
+fl=(1)
+fn=(11)
+548 0
+
+fl=(2) C:\www2\system\core\Common.php
+fn=(12) require::C:\www2\system\core\Common.php
+1 1000
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+42 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+70 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+121 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+188 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+214 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+269 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+304 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+326 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+347 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+373 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+467 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+512 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+548 0
+
+fl=(1)
+fn=(2)
+58 0
+
+fl=(1)
+fn=(13) php::file_exists
+58 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(1)
+fn=(1)
+16 0
+
+fl=(1)
+fn=(1)
+17 0
+
+fl=(1)
+fn=(1)
+18 0
+
+fl=(1)
+fn=(1)
+19 0
+
+fl=(1)
+fn=(1)
+30 0
+
+fl=(1)
+fn=(1)
+31 0
+
+fl=(1)
+fn=(1)
+32 0
+
+fl=(1)
+fn=(1)
+33 0
+
+fl=(1)
+fn=(1)
+34 0
+
+fl=(1)
+fn=(1)
+35 0
+
+fl=(1)
+fn=(1)
+36 0
+
+fl=(1)
+fn=(1)
+37 0
+
+fl=(3) C:\www2\application\config\constants.php
+fn=(14) require::C:\www2\application\config\constants.php
+1 999
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+16 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+17 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+18 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+19 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+30 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+31 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+32 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+33 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+34 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+35 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+36 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+37 0
+
+fl=(1)
+fn=(15) php::set_error_handler
+72 0
+
+fl=(1)
+fn=(16) php::version_compare
+51 0
+
+fl=(2)
+fn=(17) is_php
+44 0
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+51 0
+
+fl=(1)
+fn=(11)
+105 0
+
+fl=(1)
+fn=(18) php::ini_get
+105 0
+
+fl=(1)
+fn=(19) php::set_time_limit
+107 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20) php::class_exists
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(4) C:\www2\system\core\Benchmark.php
+fn=(21) require::C:\www2\system\core\Benchmark.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(2)
+226 0
+
+fl=(1)
+fn=(13)
+226 0
+
+fl=(1)
+fn=(13)
+232 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(5) C:\www2\application\config\config.php
+fn=(22) require::C:\www2\application\config\config.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(23) php::is_array
+240 0
+
+fl=(1)
+fn=(24) php::count
+246 0
+
+fl=(2)
+fn=(25) get_config
+216 1000
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+226 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+226 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+232 0
+cfl=(5)
+cfn=(22)
+calls=1 0 0
+237 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+240 0
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+246 0
+
+fl=(2)
+fn=(26) config_item
+271 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+277 1000
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27) php::strtolower
+196 0
+
+fl=(2)
+fn=(28) is_loaded
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(29) load_class
+123 999
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(4)
+cfn=(21)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 1000
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+
+fl=(1)
+fn=(30) php::microtime
+53 0
+
+fl=(4)
+fn=(31) CI_Benchmark->mark
+51 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+53 0
+
+fl=(1)
+fn=(30)
+53 0
+
+fl=(4)
+fn=(31)
+51 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+53 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(6) C:\www2\system\core\Hooks.php
+fn=(32) require::C:\www2\system\core\Hooks.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(7) C:\www2\system\core\Config.php
+fn=(33) require::C:\www2\system\core\Config.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(25)
+216 0
+
+fl=(2)
+fn=(25)
+216 0
+
+fl=(2)
+fn=(26)
+271 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+277 0
+
+fl=(2)
+fn=(34) log_message
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(7)
+fn=(35) CI_Config->__construct
+61 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+63 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+64 0
+
+fl=(2)
+fn=(29)
+123 2000
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(7)
+cfn=(33)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(7)
+cfn=(35)
+calls=1 0 0
+174 0
+
+fl=(7)
+fn=(36) CI_Config->item
+189 0
+
+fl=(6)
+fn=(37) CI_Hooks->_initialize
+68 0
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+70 2000
+cfl=(7)
+cfn=(36)
+calls=1 0 0
+75 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(6)
+fn=(38) CI_Hooks->__construct
+54 0
+cfl=(6)
+cfn=(37)
+calls=1 0 0
+56 2000
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+57 0
+
+fl=(2)
+fn=(29)
+123 999
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(6)
+cfn=(32)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(6)
+cfn=(38)
+calls=1 0 0
+174 2000
+
+fl=(6)
+fn=(39) CI_Hooks->_call_hook
+113 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(8) C:\www2\system\core\Utf8.php
+fn=(40) require::C:\www2\system\core\Utf8.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 1000
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(1)
+fn=(41) php::preg_match
+44 0
+
+fl=(1)
+fn=(11)
+45 0
+
+fl=(1)
+fn=(18)
+46 0
+
+fl=(7)
+fn=(36)
+189 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(1)
+fn=(1)
+52 0
+
+fl=(1)
+fn=(42) php::extension_loaded
+57 0
+
+fl=(1)
+fn=(1)
+64 0
+
+fl=(8)
+fn=(43) CI_Utf8->__construct
+37 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+39 0
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+44 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+45 0
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+46 0
+cfl=(7)
+cfn=(36)
+calls=1 0 0
+47 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+50 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+52 0
+cfl=(1)
+cfn=(42)
+calls=1 0 0
+57 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+64 0
+
+fl=(2)
+fn=(29)
+123 999
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(8)
+cfn=(40)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 1000
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(8)
+cfn=(43)
+calls=1 0 0
+174 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(9) C:\www2\system\core\URI.php
+fn=(44) require::C:\www2\system\core\URI.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(9)
+fn=(45) CI_URI->__construct
+70 1000
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+72 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+73 0
+
+fl=(2)
+fn=(29)
+123 999
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(9)
+cfn=(44)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(9)
+cfn=(45)
+calls=1 0 0
+174 1000
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(10) C:\www2\system\core\Router.php
+fn=(46) require::C:\www2\system\core\Router.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(10)
+fn=(47) CI_Router->__construct
+86 999
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+88 0
+cfl=(2)
+cfn=(29)
+calls=1 0 0
+89 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+90 0
+
+fl=(2)
+fn=(29)
+123 999
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(10)
+cfn=(46)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(10)
+cfn=(47)
+calls=1 0 0
+174 999
+
+fl=(7)
+fn=(36)
+189 0
+
+fl=(1)
+fn=(2)
+132 0
+
+fl=(1)
+fn=(48) php::is_file
+132 0
+
+fl=(1)
+fn=(48)
+136 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(11) C:\www2\application\config\routes.php
+fn=(49) include::C:\www2\application\config\routes.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(23)
+141 0
+
+fl=(1)
+fn=(27)
+146 0
+
+fl=(1)
+fn=(24)
+149 0
+
+fl=(7)
+fn=(36)
+189 0
+
+fl=(1)
+fn=(50) php::strtoupper
+87 0
+
+fl=(1)
+fn=(51) php::php_sapi_name
+90 0
+
+fl=(1)
+fn=(2)
+90 0
+
+fl=(1)
+fn=(52) php::strpos
+186 0
+
+fl=(1)
+fn=(53) php::dirname
+190 0
+
+fl=(1)
+fn=(52)
+190 0
+
+fl=(1)
+fn=(54) php::strncmp
+197 0
+
+fl=(1)
+fn=(55) php::preg_split
+201 0
+
+fl=(9)
+fn=(56) CI_URI->_detect_uri
+178 0
+cfl=(1)
+cfn=(52)
+calls=1 0 0
+186 0
+cfl=(1)
+cfn=(53)
+calls=1 0 0
+190 0
+cfl=(1)
+cfn=(52)
+calls=1 0 0
+190 0
+cfl=(1)
+cfn=(54)
+calls=1 0 0
+197 0
+cfl=(1)
+cfn=(55)
+calls=1 0 0
+201 0
+
+fl=(1)
+fn=(57) php::preg_replace
+531 0
+
+fl=(2)
+fn=(58) remove_invisible_characters
+514 0
+cfl=(1)
+cfn=(57)
+calls=1 0 0
+531 0
+
+fl=(9)
+fn=(59) CI_URI->_set_uri_string
+158 0
+cfl=(2)
+cfn=(58)
+calls=1 0 0
+161 0
+
+fl=(9)
+fn=(60) CI_URI->_fetch_uri_string
+85 0
+cfl=(7)
+cfn=(36)
+calls=1 0 0
+87 0
+cfl=(1)
+cfn=(50)
+calls=1 0 0
+87 0
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+90 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+90 0
+cfl=(9)
+cfn=(56)
+calls=1 0 0
+97 0
+cfl=(9)
+cfn=(59)
+calls=1 0 0
+99 0
+
+fl=(1)
+fn=(52)
+191 0
+
+fl=(1)
+fn=(8)
+409 0
+
+fl=(10)
+fn=(61) CI_Router->set_class
+407 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+409 0
+
+fl=(10)
+fn=(62) CI_Router->set_method
+434 0
+
+fl=(1)
+fn=(24)
+266 0
+
+fl=(1)
+fn=(13)
+272 0
+
+fl=(10)
+fn=(63) CI_Router->_validate_request
+264 0
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+266 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+272 0
+
+fl=(1)
+fn=(24)
+229 0
+
+fl=(1)
+fn=(8)
+409 0
+
+fl=(10)
+fn=(61)
+407 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+409 0
+
+fl=(10)
+fn=(62)
+434 0
+
+fl=(10)
+fn=(64) CI_Router->_set_request
+225 0
+cfl=(10)
+cfn=(63)
+calls=1 0 0
+227 0
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+229 0
+cfl=(10)
+cfn=(61)
+calls=1 0 0
+234 0
+cfl=(10)
+cfn=(62)
+calls=1 0 0
+239 0
+
+fl=(1)
+fn=(65) php::array_unshift
+323 0
+
+fl=(1)
+fn=(65)
+324 0
+
+fl=(9)
+fn=(66) CI_URI->_reindex_segments
+321 0
+cfl=(1)
+cfn=(65)
+calls=1 0 0
+323 0
+cfl=(1)
+cfn=(65)
+calls=1 0 0
+324 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(10)
+fn=(67) CI_Router->_set_default_controller
+184 999
+cfl=(1)
+cfn=(52)
+calls=1 0 0
+191 0
+cfl=(10)
+cfn=(61)
+calls=1 0 0
+201 0
+cfl=(10)
+cfn=(62)
+calls=1 0 0
+202 0
+cfl=(10)
+cfn=(64)
+calls=1 0 0
+203 0
+cfl=(9)
+cfn=(66)
+calls=1 0 0
+207 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+209 0
+
+fl=(10)
+fn=(68) CI_Router->_set_routing
+104 2000
+cfl=(7)
+cfn=(36)
+calls=1 0 0
+110 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+132 0
+cfl=(1)
+cfn=(48)
+calls=1 0 0
+132 0
+cfl=(1)
+cfn=(48)
+calls=1 0 0
+136 0
+cfl=(11)
+cfn=(49)
+calls=1 0 0
+138 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+141 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+146 0
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+149 0
+cfl=(9)
+cfn=(60)
+calls=1 0 0
+155 0
+cfl=(10)
+cfn=(67)
+calls=1 0 0
+160 999
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(12) C:\www2\system\core\Output.php
+fn=(69) require::C:\www2\system\core\Output.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(1)
+fn=(18)
+94 0
+
+fl=(1)
+fn=(2)
+97 0
+
+fl=(1)
+fn=(13)
+97 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(13) C:\www2\application\config\mimes.php
+fn=(70) include::C:\www2\application\config\mimes.php
+1 999
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(12)
+fn=(71) CI_Output->__construct
+92 0
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+94 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+97 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+97 0
+cfl=(13)
+cfn=(70)
+calls=1 0 0
+103 999
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+109 0
+
+fl=(2)
+fn=(29)
+123 2000
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(12)
+cfn=(69)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(12)
+cfn=(71)
+calls=1 0 0
+174 999
+
+fl=(6)
+fn=(39)
+113 0
+
+fl=(7)
+fn=(36)
+189 0
+
+fl=(7)
+fn=(36)
+189 0
+
+fl=(7)
+fn=(36)
+189 0
+
+fl=(1)
+fn=(72) php::md5
+523 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(12)
+fn=(73) CI_Output->_display_cache
+514 0
+cfl=(7)
+cfn=(36)
+calls=1 0 0
+516 0
+cfl=(7)
+cfn=(36)
+calls=1 0 0
+519 0
+cfl=(7)
+cfn=(36)
+calls=1 0 0
+520 0
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+523 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(14) C:\www2\system\core\Security.php
+fn=(74) require::C:\www2\system\core\Security.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(25)
+216 0
+
+fl=(2)
+fn=(26)
+271 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+277 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(14)
+fn=(75) CI_Security->__construct
+104 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+107 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+128 0
+
+fl=(2)
+fn=(29)
+123 3000
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(14)
+cfn=(74)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(14)
+cfn=(75)
+calls=1 0 0
+174 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(15) C:\www2\system\core\Input.php
+fn=(76) require::C:\www2\system\core\Input.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(2)
+fn=(25)
+216 0
+
+fl=(2)
+fn=(26)
+271 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+277 0
+
+fl=(2)
+fn=(25)
+216 0
+
+fl=(2)
+fn=(26)
+271 0
+cfl=(2)
+cfn=(25)
+calls=1 0 0
+277 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(23)
+576 0
+
+fl=(1)
+fn=(23)
+576 0
+
+fl=(1)
+fn=(23)
+576 0
+
+fl=(1)
+fn=(23)
+604 0
+
+fl=(1)
+fn=(24)
+604 999
+
+fl=(1)
+fn=(23)
+614 0
+
+fl=(1)
+fn=(24)
+614 0
+
+fl=(1)
+fn=(23)
+623 0
+
+fl=(1)
+fn=(24)
+623 0
+
+fl=(1)
+fn=(77) php::strip_tags
+641 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(15)
+fn=(78) CI_Input->_sanitize_globals
+564 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+576 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+576 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+576 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+604 0
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+604 999
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+614 0
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+614 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+623 0
+cfl=(1)
+cfn=(24)
+calls=1 0 0
+623 0
+cfl=(1)
+cfn=(77)
+calls=1 0 0
+641 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+650 0
+
+fl=(15)
+fn=(79) CI_Input->__construct
+84 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+86 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+88 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+89 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+90 0
+cfl=(15)
+cfn=(78)
+calls=1 0 0
+103 999
+
+fl=(2)
+fn=(29)
+123 2000
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(15)
+cfn=(76)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(15)
+cfn=(79)
+calls=1 0 0
+174 999
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(16) C:\www2\system\core\Lang.php
+fn=(80) require::C:\www2\system\core\Lang.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(16)
+fn=(81) CI_Lang->__construct
+47 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+49 0
+
+fl=(2)
+fn=(29)
+123 1000
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(16)
+cfn=(80)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(16)
+cfn=(81)
+calls=1 0 0
+174 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(17) C:\www2\system\core\Controller.php
+fn=(82) require::C:\www2\system\core\Controller.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(13)
+237 0
+
+fl=(10)
+fn=(83) CI_Router->fetch_directory
+479 0
+
+fl=(10)
+fn=(84) CI_Router->fetch_class
+420 0
+
+fl=(1)
+fn=(13)
+245 0
+
+fl=(10)
+fn=(83)
+479 0
+
+fl=(10)
+fn=(84)
+420 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(18) C:\www2\application\controllers\pages.php
+fn=(85) include::C:\www2\application\controllers\pages.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(30)
+53 0
+
+fl=(4)
+fn=(31)
+51 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+53 0
+
+fl=(10)
+fn=(84)
+420 0
+
+fl=(10)
+fn=(84)
+420 0
+
+fl=(10)
+fn=(86) CI_Router->fetch_method
+447 0
+cfl=(10)
+cfn=(84)
+calls=1 0 0
+449 0
+
+fl=(1)
+fn=(20)
+267 0
+
+fl=(1)
+fn=(54)
+268 0
+
+fl=(1)
+fn=(27)
+269 0
+
+fl=(1)
+fn=(87) php::get_class_methods
+269 0
+
+fl=(1)
+fn=(88) php::array_map
+269 0
+
+fl=(1)
+fn=(89) php::in_array
+269 0
+
+fl=(6)
+fn=(39)
+113 0
+
+fl=(1)
+fn=(30)
+53 0
+
+fl=(4)
+fn=(31)
+51 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+53 0
+
+fl=(2)
+fn=(28)
+190 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(2)
+fn=(29)
+123 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(13)
+139 0
+
+fl=(1)
+fn=(20)
+143 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(19) C:\www2\system\core\Loader.php
+fn=(90) require::C:\www2\system\core\Loader.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+153 0
+
+fl=(1)
+fn=(27)
+196 0
+
+fl=(2)
+fn=(28)
+190 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+196 0
+
+fl=(1)
+fn=(91) php::ob_get_level
+126 0
+
+fl=(2)
+fn=(26)
+271 1000
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 1000
+
+fl=(19)
+fn=(92) CI_Loader->__construct
+124 0
+cfl=(1)
+cfn=(91)
+calls=1 0 0
+126 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+132 1000
+
+fl=(2)
+fn=(29)
+123 1999
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+139 0
+cfl=(1)
+cfn=(20)
+calls=1 0 0
+143 0
+cfl=(19)
+cfn=(90)
+calls=1 0 0
+145 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+153 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+153 0
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+172 0
+cfl=(19)
+cfn=(92)
+calls=1 0 0
+174 1000
+
+fl=(2)
+fn=(28)
+190 0
+
+fl=(1)
+fn=(2)
+1116 0
+
+fl=(1)
+fn=(13)
+1116 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(20) C:\www2\application\config\autoload.php
+fn=(93) include::C:\www2\application\config\autoload.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(24)
+1140 0
+
+fl=(1)
+fn=(24)
+1152 0
+
+fl=(1)
+fn=(23)
+1231 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(27)
+1239 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(27)
+1239 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(27)
+1239 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(8)
+1239 0
+
+fl=(1)
+fn=(27)
+1239 0
+
+fl=(19)
+fn=(94) CI_Loader->_ci_prep_filename
+1229 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+1231 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(8)
+calls=1 0 0
+1239 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+1239 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+505 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(1)
+fn=(11)
+41 0
+
+fl=(1)
+fn=(11)
+95 0
+
+fl=(1)
+fn=(11)
+125 0
+
+fl=(1)
+fn=(11)
+173 0
+
+fl=(1)
+fn=(11)
+196 0
+
+fl=(1)
+fn=(11)
+223 0
+
+fl=(1)
+fn=(11)
+248 0
+
+fl=(1)
+fn=(11)
+281 0
+
+fl=(1)
+fn=(11)
+306 0
+
+fl=(1)
+fn=(11)
+374 0
+
+fl=(1)
+fn=(11)
+419 0
+
+fl=(1)
+fn=(11)
+444 0
+
+fl=(1)
+fn=(11)
+465 0
+
+fl=(1)
+fn=(11)
+486 0
+
+fl=(1)
+fn=(11)
+513 0
+
+fl=(1)
+fn=(11)
+551 0
+
+fl=(1)
+fn=(11)
+579 0
+
+fl=(1)
+fn=(11)
+596 0
+
+fl=(1)
+fn=(11)
+615 0
+
+fl=(1)
+fn=(11)
+673 0
+
+fl=(1)
+fn=(11)
+705 0
+
+fl=(1)
+fn=(11)
+760 0
+
+fl=(1)
+fn=(11)
+815 0
+
+fl=(1)
+fn=(11)
+870 0
+
+fl=(1)
+fn=(11)
+896 0
+
+fl=(1)
+fn=(11)
+921 0
+
+fl=(1)
+fn=(11)
+970 0
+
+fl=(1)
+fn=(11)
+1029 0
+
+fl=(21) C:\www2\system\helpers\form_helper.php
+fn=(95) include_once::C:\www2\system\helpers\form_helper.php
+1 2000
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+41 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+95 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+125 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+173 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+196 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+223 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+248 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+281 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+306 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+374 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+419 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+444 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+465 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+486 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+513 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+551 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+579 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+596 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+615 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+673 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+705 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+760 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+815 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+870 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+896 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+921 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+970 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+1029 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+505 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(1)
+fn=(11)
+40 0
+
+fl=(1)
+fn=(11)
+62 0
+
+fl=(1)
+fn=(11)
+82 0
+
+fl=(1)
+fn=(11)
+100 0
+
+fl=(1)
+fn=(11)
+119 0
+
+fl=(1)
+fn=(11)
+141 0
+
+fl=(1)
+fn=(11)
+184 0
+
+fl=(1)
+fn=(11)
+233 0
+
+fl=(1)
+fn=(11)
+263 0
+
+fl=(1)
+fn=(11)
+378 0
+
+fl=(1)
+fn=(11)
+443 0
+
+fl=(1)
+fn=(11)
+477 0
+
+fl=(1)
+fn=(11)
+529 0
+
+fl=(1)
+fn=(11)
+561 0
+
+fl=(22) C:\www2\system\helpers\url_helper.php
+fn=(96) include_once::C:\www2\system\helpers\url_helper.php
+1 999
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+40 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+62 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+82 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+100 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+119 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+141 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+184 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+233 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+263 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+378 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+443 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+477 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+529 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+561 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+505 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(1)
+fn=(11)
+41 0
+
+fl=(1)
+fn=(11)
+62 0
+
+fl=(1)
+fn=(11)
+82 0
+
+fl=(1)
+fn=(11)
+104 0
+
+fl=(1)
+fn=(11)
+179 0
+
+fl=(1)
+fn=(11)
+198 0
+
+fl=(1)
+fn=(11)
+258 0
+
+fl=(1)
+fn=(11)
+308 0
+
+fl=(1)
+fn=(11)
+383 0
+
+fl=(1)
+fn=(11)
+426 0
+
+fl=(23) C:\www2\system\helpers\html_helper.php
+fn=(97) include_once::C:\www2\system\helpers\html_helper.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+41 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+62 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+82 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+104 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+179 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+198 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+258 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+308 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+383 0
+cfl=(1)
+cfn=(11)
+calls=1 0 0
+426 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(1)
+fn=(13)
+505 0
+
+fl=(1)
+fn=(13)
+525 0
+
+fl=(1)
+fn=(2)
+10 0
+
+fl=(24) C:\www2\application\helpers\tinymce_helper.php
+fn=(98) include_once::C:\www2\application\helpers\tinymce_helper.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+10 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(19)
+fn=(99) CI_Loader->helper
+493 6999
+cfl=(19)
+cfn=(94)
+calls=1 0 0
+495 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+502 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+505 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+cfl=(21)
+cfn=(95)
+calls=1 0 0
+527 2000
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+530 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+502 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+505 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+cfl=(22)
+cfn=(96)
+calls=1 0 0
+527 999
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+530 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+502 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+505 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+cfl=(23)
+cfn=(97)
+calls=1 0 0
+527 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+530 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+502 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+505 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+525 0
+cfl=(24)
+cfn=(98)
+calls=1 0 0
+527 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+530 0
+
+fl=(1)
+fn=(24)
+1152 0
+
+fl=(1)
+fn=(24)
+1166 0
+
+fl=(1)
+fn=(89)
+1169 0
+
+fl=(17)
+fn=(100) CI_Controller::get_instance
+56 0
+
+fl=(25) C:\www2\system\core\CodeIgniter.php
+fn=(101) get_instance
+231 0
+cfl=(17)
+cfn=(100)
+calls=1 0 0
+233 0
+
+fl=(1)
+fn=(20)
+329 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(26) C:\www2\system\database\DB.php
+fn=(102) require_once::C:\www2\system\database\DB.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(103) php::is_string
+30 0
+
+fl=(1)
+fn=(52)
+30 0
+
+fl=(1)
+fn=(2)
+33 0
+
+fl=(1)
+fn=(13)
+33 0
+
+fl=(1)
+fn=(13)
+35 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(27) C:\www2\application\config\database.php
+fn=(104) include::C:\www2\application\config\database.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(24)
+43 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(28) C:\www2\system\database\DB_driver.php
+fn=(105) require_once::C:\www2\system\database\DB_driver.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(29) C:\www2\system\database\DB_active_rec.php
+fn=(106) require_once::C:\www2\system\database\DB_active_rec.php
+1 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(20)
+127 0
+
+fl=(30) C:\www2\system\database\DB.php(129) : eval()'d code
+fn=(107) eval
+129 0
+
+fl=(1)
+fn=(2)
+1 0
+
+fl=(31) C:\www2\system\database\drivers\mysql\mysql_driver.php
+fn=(108) require_once::C:\www2\system\database\drivers\mysql\mysql_driver.php
+1 999
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 0
+
+fl=(1)
+fn=(23)
+83 0
+
+fl=(2)
+fn=(26)
+271 0
+
+fl=(2)
+fn=(34)
+349 0
+cfl=(2)
+cfn=(26)
+calls=1 0 0
+353 0
+
+fl=(28)
+fn=(109) CI_DB_driver->__construct
+81 0
+cfl=(1)
+cfn=(23)
+calls=1 0 0
+83 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+91 0
+
+fl=(1)
+fn=(110) php::is_resource
+107 0
+
+fl=(1)
+fn=(111) php::is_object
+107 0
+
